@@ -1,7 +1,7 @@
 import { useContext, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { AuthContext } from '../contact/AuthProvider';
-import googleLogo from '../assets/google-logo.svg'
+
 
 const SignUp = () => {
 
@@ -78,7 +78,7 @@ const SignUp = () => {
 				</div> 
         <hr />
         <div className='flex w-full item-center flex-col mt-5 gap-3'>
-          <button onClick={handleRegister} className='block' ><img src={googleLogo} className='w-12 h-12 inline-block'/>Log in with Google</button>
+          <button onClick={handleRegister} className='block' ><img src="https://res.cloudinary.com/dwoqmrypu/image/upload/v1724523583/google-logo_t1lrum.svg" className='w-12 h-12 inline-block'/>Log in with Google</button>
         </div>
 			</div>
 		</div>

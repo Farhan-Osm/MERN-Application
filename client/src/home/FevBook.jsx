@@ -1,12 +1,10 @@
-import React from 'react'
-import FavBookImg from '../assets/banner-pic.png'
 import { Link } from 'react-router-dom'
 
 const FevBook = () => {
   return (
     <div className='px-4 lg:px-24 my-20 flex flex-col md:flex-row justify-between items-center gap-14'>
       <div className='md:w-1/2'>
-        <img src={FavBookImg} alt="" className='rounded md:w-10/12' />
+        <img src="https://res.cloudinary.com/dwoqmrypu/image/upload/v1724518069/banner-pic_dlkaw1.png" alt="" className='rounded md:w-10/12' />
       </div> 
       <div className='md:w-1/2 space-y-6'>
         <h2 className='text-5xl font-bold my-5 md:w-3/4 leading-snug'>Find Your Favorite

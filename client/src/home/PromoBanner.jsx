@@ -1,6 +1,4 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
-import bookPic from '../assets/openbook1.png'
 
 const PromoBanner = () => {
   return (
@@ -12,7 +10,7 @@ const PromoBanner = () => {
                  hover:bg-black transition-all duration-300'>Get Promo Code</button></Link>
             </div>
             <div>
-                <img src={bookPic} alt=""  className='w-96'/>
+                <img src="https://res.cloudinary.com/dwoqmrypu/image/upload/v1724518353/openbook1_qxmiwe.png" alt=""  className='w-96'/>
             </div>
         </div>
     </div>

@@ -1,14 +1,6 @@
-import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import  Profpic from '../assets/prof1.png';
-import  Profpic2 from '../assets/prof2.png';
-import  Profpic3 from '../assets/prof3.png';
-import  Profpic4 from '../assets/prof4.png';
-import  Profpic5 from '../assets/prof5.png';
-import  Profpic6 from '../assets/prof6.png';
-import  Profpic7 from '../assets/prof7.png';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -56,7 +48,7 @@ const Review = () => {
         <SwiperSlide className='shadow-2xl bg-white py-5 px-4 md:m-5 rounded-lg border'>
             <div className='space-y-6'>
                 <div className='mt-7'>
-                  <Avatar img={Profpic} alt="avatar of Jese" rounded  className='w-10 mb-4'/>
+                  <Avatar img= "https://res.cloudinary.com/dwoqmrypu/image/upload/v1724518366/prof1_iocens.jpg" alt="avatar of Jese" rounded  className='w-10 mb-4' />
                     <h5 className='text-lg font-medium'>Alina Su</h5>
                     <p className='text-base'>NovaXS Biotech Corp</p>
                 </div>
@@ -81,7 +73,7 @@ const Review = () => {
         <SwiperSlide className='shadow-2xl bg-white py-5 px-4 md:m-5 rounded-lg border'>
             <div className='space-y-6'>
                 <div className='mt-7'>
-                  <Avatar img={Profpic2} alt="avatar of Jese" rounded  className='w-10 mb-4'/>
+                  <Avatar img="https://res.cloudinary.com/dwoqmrypu/image/upload/v1724518391/prof2_spdu8y.webp" alt="avatar of Jese" rounded  className='w-10 mb-4'/>
                     <h5 className='text-lg font-medium'>Dr Marko</h5>
                     <p className='text-base'>Paras HMRI</p>
                 </div>
@@ -107,7 +99,7 @@ const Review = () => {
         <SwiperSlide className='shadow-2xl bg-white py-5 px-4 md:m-5 rounded-lg border'>
             <div className='space-y-6'>
                 <div className='mt-7'>
-                   <Avatar img={Profpic3} alt="avatar of Jese" rounded  className='w-10 mb-4'/>
+                   <Avatar img="https://res.cloudinary.com/dwoqmrypu/image/upload/v1724518400/prof3_fqy7fy.jpg" alt="avatar of Jese" rounded  className='w-10 mb-4'/>
                     <h5 className='text-lg font-medium'>Er cotlin</h5>
                     <p className='text-base'>Infosis</p>
                 </div>
@@ -132,7 +124,7 @@ const Review = () => {
         <SwiperSlide className='shadow-2xl bg-white py-5 px-4 md:m-5 rounded-lg border'>
             <div className='space-y-6'>
                 <div className='mt-7'>
-                  <Avatar img={Profpic4} alt="avatar of Jese" rounded  className='w-10 mb-4'/>
+                  <Avatar img="https://res.cloudinary.com/dwoqmrypu/image/upload/v1724518418/prof4_fjonvg.jpg" alt="avatar of Jese" rounded  className='w-10 mb-4'/>
                     <h5 className='text-lg font-medium'>Komal Singh</h5>
                     <p className='text-base'>Business</p>
                 </div>
@@ -156,7 +148,7 @@ const Review = () => {
         <SwiperSlide className='shadow-2xl bg-white py-5 px-4 md:m-5 rounded-lg border'>
             <div className='space-y-6'>
                 <div className='mt-7'>
-                  <Avatar img={Profpic5} alt="avatar of Jese" rounded  className='w-10 mb-4'/>
+                  <Avatar img="https://res.cloudinary.com/dwoqmrypu/image/upload/v1724518430/prof5_p7hgpt.jpg" alt="avatar of Jese" rounded  className='w-10 mb-4'/>
                     <h5 className='text-lg font-medium'>Sonali Agarwal</h5>
                     <p className='text-base'>Microsoft</p>
                 </div>
@@ -180,7 +172,7 @@ const Review = () => {
         <SwiperSlide className='shadow-2xl bg-white py-5 px-4 md:m-5 rounded-lg border'>
             <div className='space-y-6'>
                 <div className='mt-7'>
-                  <Avatar img={Profpic6} alt="avatar of Jese" rounded  className='w-10 mb-4'/>
+                  <Avatar img="https://res.cloudinary.com/dwoqmrypu/image/upload/v1724518446/prof6_r2mtok.jpg" alt="avatar of Jese" rounded  className='w-10 mb-4'/>
                     <h5 className='text-lg font-medium'>Ha-yoon</h5>
                     <p className='text-base'>Samsung</p>
                 </div>
@@ -204,7 +196,7 @@ const Review = () => {
         <SwiperSlide className='shadow-2xl bg-white py-5 px-4 md:m-5 rounded-lg border'>
             <div className='space-y-6'>
                 <div className='mt-7'>
-                  <Avatar img={Profpic7} alt="avatar of Jese" rounded  className='w-10 mb-4'/>
+                  <Avatar img="https://res.cloudinary.com/dwoqmrypu/image/upload/v1724518462/prof7_mgrxmx.webp" alt="avatar of Jese" rounded  className='w-10 mb-4'/>
                     <h5 className='text-lg font-medium'>Himanshu Moriya</h5>
                     <p className='text-base'>Google</p>
                 </div>

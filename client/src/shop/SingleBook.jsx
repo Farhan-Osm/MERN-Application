@@ -5,6 +5,10 @@ import { useLoaderData } from 'react-router-dom'
 
   const {bookTitle,imageURL,authorName,price,totalprice,discountPercentage} = useLoaderData();
 
+  const discountPrice = totalprice*discountPercentage/100
+
+  const actualPrice = totalprice-discountPrice
+
   return (
   <>
 
@@ -14,7 +18,7 @@ import { useLoaderData } from 'react-router-dom'
       <h2>{bookTitle}</h2>
       <h2>{authorName}</h2>
       <div className=' flex items-center text-gray-900'>
-        <p className='font-semibold mt-3 '>₹{price}</p>
+        <p className='font-semibold mt-3 '>₹{actualPrice}</p>
         <p className='opacity-50 line-through mt-3 px-2'>₹{totalprice}</p>
         <p className='text-green-600 font-semibold mt-3 px-4'>{discountPercentage}% off</p>
     </div>
@@ -26,11 +30,11 @@ import { useLoaderData } from 'react-router-dom'
        <div className='space-y-3 font-semibold'>
         <div className='flex justify-between pt-3 text-black'>
           <span>Price</span>
-          <span>₹{price}</span>
+          <span>₹{totalprice}</span>
         </div>  
         <div className='flex justify-between pt-3 '>
           <span>Discount</span>
-          <span className='text-green-600'>₹99</span>
+          <span className='text-green-600'>₹{discountPrice}</span>
         </div> 
         <div className='flex justify-between pt-3 '>
           <span>Delivery Charge</span>
@@ -38,7 +42,7 @@ import { useLoaderData } from 'react-router-dom'
         </div> 
         <div className='flex justify-between pt-3 '>
           <span>Total Amount</span>
-          <span className='text-green-600'>₹{price}</span>
+          <span className='text-green-600'>₹{actualPrice}</span>
         </div> 
        </div>
        <button className='mt-8 uppercase bg-violet-600 text-white w-full h-8'>Checkout</button>

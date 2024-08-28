@@ -51,42 +51,42 @@ body {
 } */
 
 .banner .swiper-slide:nth-child(1n) {
-  background-image: url('/src/assets/book1.png');
+  background-image: url('https://res.cloudinary.com/dwoqmrypu/image/upload/v1724518098/book1_p68u08.png');
   height: 340px;
 }
 
 .banner .swiper-slide:nth-child(2n) {
-  background-image: url('/src/assets/book2.png');
+  background-image: url('https://res.cloudinary.com/dwoqmrypu/image/upload/v1724518163/book2_yctcva.png');
 }
 
 .banner .swiper-slide:nth-child(3n) {
-  background-image: url('/src/assets/book3.png');
+  background-image: url('https://res.cloudinary.com/dwoqmrypu/image/upload/v1724518179/book3_iskbbt.png');
 }
 
 .banner .swiper-slide:nth-child(4n) {
-  background-image: url('/src/assets/book4.png');
+  background-image: url('https://res.cloudinary.com/dwoqmrypu/image/upload/v1724518191/book4_mszk9t.png');
 }
 
 .banner .swiper-slide:nth-child(5n) {
-  background-image: url('/src/assets/book5.png');
+  background-image: url('https://res.cloudinary.com/dwoqmrypu/image/upload/v1724518204/book5_hw3rrx.png');
 }
 
 .banner .swiper-slide:nth-child(6n) {
-  background-image: url('/src/assets/book6.png');
+  background-image: url('https://res.cloudinary.com/dwoqmrypu/image/upload/v1724518244/book6_jm1hc7.png');
 }
 
 .banner .swiper-slide:nth-child(7n) {
-  background-image: url('/src/assets/book7.png');
+  background-image: url('https://res.cloudinary.com/dwoqmrypu/image/upload/v1724518263/book7_ysoyue.png');
 }
 
 .banner .swiper-slide:nth-child(8n) {
-  background-image: url('/src/assets/book8.png');
+  background-image: url('https://res.cloudinary.com/dwoqmrypu/image/upload/v1724518291/book8_ep1d2r.png');
 }
 
 .banner .swiper-slide:nth-child(9n) {
-  background-image: url('/src/assets/book9.png');
+  background-image: url('https://res.cloudinary.com/dwoqmrypu/image/upload/v1724518307/book9_tzjdc1.png');
 }
 
 .banner .swiper-slide:nth-child(10n) {
-  background-image: url('/src/assets/book10.png');
+  background-image: url('https://res.cloudinary.com/dwoqmrypu/image/upload/v1724518336/book10_pcoick.png');
 }
